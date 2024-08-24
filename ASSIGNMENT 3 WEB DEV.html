@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+
+<body>
+    <div>
+        <a href="ASSIGNMENT 2 WEB DEV.html">Home</a>
+    </div>
+    <h2>Student Registration Form</h2>
+    <form action="post">
+        <div>
+            <label for="username">FIRST NAME :</label>
+            <input type="username" placeholder="Enter your first name">
+        </div>
+<br>
+        <div>
+            <label for="username">LAST NAME :</label>
+            <input type="username" placeholder="Enter your last name">
+        </div>
+<br>
+        <div>
+            <label for="email">EMAIL :</label>
+            <input id="email" type="email" placeholder="Enter your email id">
+        </div>
+<br>
+        <div>
+            <label for="phone">MOBILE NO. :</label>
+            <input id="phone" name="phone" minlength="10" maxlength="10" type="tel" placeholder="Enter your mobile number">
+        </div>
+<br>
+        <div>GENDER :
+            <input type="radio" id="male" value="male" name="gender">
+            <label for="male">MALE</label>
+            <input type="radio" id="female" value="female" name="gender">
+            <label for="female">FEMALE</label>
+        </div>
+
+        <div>
+            <label for="age">Date of birth :</label>
+            <input type="date" id="age" min="2012-12-12" max="2024-08-13">
+        </div>
+
+        <div>ADDRESS :
+            <Address>
+                <textarea placeholder="Enter your address" name="content" rows="5" cols="50"></textarea>
+            </Address>
+        </div>
+
+        <div>
+            <label for="city">CITY :</label>
+            <input id="city" type="username" placeholder="Enter your city">
+        </div>
+
+        <div>
+            <label for="pincode">AREA PIN :</label>
+            <input id="pincode" type="tel" placeholder="Enter your pincode" maxlength="6">
+        </div>
+
+        <div>
+            <label for="state">STATE :</label>
+            <input id="state" type="username" placeholder="Enter your state">
+        </div>
+
+        <div>QUALIFICATION :
+            <select name="qualification">
+                <option value="10th pass">10th Pass</option>
+                <option value="12th pass">12th Pass</option>
+                <option value="graduated">Graduated</option>
+            </select>
+        </div>
+
+        <div>SPECIALIZATION : <br>
+            <input type="checkbox" id="specialization" value="Computer Science">
+            <label for="specialization">Computer Science</label>
+            <br>
+            <input type="checkbox" id="specialization" value="Information Technology">
+            <label for="specialization">Information Technology</label>
+            <br>
+            <input type="checkbox" id="specialization" value="Computer Architecture">
+            <label for="specialization">Computer Architecture</label>
+            <br>
+            <input type="checkbox" id="specialization" value="Tele Communication">
+            <label for="specialization">Tele Communication</label>
+        </div>
+
+        <div>
+            <label for="Password">PASSWORD :</label>
+            <input type="password" id="Password" placeholder="Enter your password">
+        </div>
+
+        <div>
+            <input type="submit" value="SUBMIT">
+        </div>
+    </form>
+</body>
+
+</html>
